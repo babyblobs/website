@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "simply";
+  font-weight: bold;
+  src: url("Simply\ Rounded\ Bold.ttf");
+}
+
+@font-face {
+  font-family: "simply";
+  font-weight: bold;
+  font-style: italic;
+  src: url("Simply\ Rounded\ Bold\ Italic.ttf");
+}
+
+@font-face {
+  font-family: "simply";
+
+  src: url("Simply\ Rounded.ttf");
+}
+@font-face {
+  font-family: "simply";
+  font-style: italic;
+  src: url("Simply\ Rounded\ Italic.ttf");
+}
