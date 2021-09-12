@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" viewBox="0 0 1530 189.2">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.79" y1="0.5" x2="0.041" y2="0.387" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4ceabf"/>
+      <stop offset="1" stop-color="#bf30c8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.021" x2="0.971" y2="0.5" xlink:href="#linear-gradient"/>
+    <filter id="Subtraction_1" x="0" y="0" width="1530" height="189.2" filterUnits="userSpaceOnUse">
+      <feOffset dy="30" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-color="#f90808"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Nav_Bar" data-name="Nav Bar" transform="translate(45 15)">
+    <path id="Path_1" data-name="Path 1" d="M0,0H1440V84.95S1080,96.333,720,96.333,0,84.95,0,84.95Z" fill="url(#linear-gradient)"/>
+    <g transform="matrix(1, 0, 0, 1, -45, -15)" filter="url(#Subtraction_1)">
+      <path id="Subtraction_1-2" data-name="Subtraction 1" d="M720,99.2c-82.115,0-171.064-.616-264.375-1.832C380.982,96.4,303.388,95.04,225,93.339,91.821,90.448.9,87.508,0,87.478V0H1440V87.478l-.14.005c-9.606.308-97.523,3.091-224.86,5.855-78.388,1.7-155.982,3.057-230.625,4.029C891.064,98.583,802.115,99.2,720,99.2ZM2.55,2.95V85.226c.812.025,91.983,2.8,224.2,5.512,78.113,1.6,155.432,2.875,229.808,3.79C549.55,95.67,638.184,96.25,720,96.25s170.45-.579,263.439-1.722c74.376-.914,151.7-2.189,229.808-3.79,133.728-2.74,223.314-5.485,224.2-5.512V2.95Z" transform="translate(45 15)" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40"
+    viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .a {
+                fill: #fff;
+            }
+
+            .b,
+            .d {
+                fill: none;
+            }
+
+            .b {
+                stroke: #bf30c8;
+            }
+
+            .c {
+                stroke: none;
+            }
+
+            .e {
+                filter: url(#d);
+            }
+
+            .f {
+                filter: url(#a);
+            }
+        </style>
+        <filter id="a">
+            <feOffset input="SourceAlpha" />
+            <feGaussianBlur stdDeviation="3" result="b" />
+            <feFlood flood-color="#fff" flood-opacity="0.502" result="c" />
+            <feComposite operator="out" in="SourceGraphic" in2="b" />
+            <feComposite operator="in" in="c" />
+            <feComposite operator="in" in2="SourceGraphic" />
+        </filter>
+        <filter id="d" x="0" y="0" width="40" height="40" filterUnits="userSpaceOnUse">
+            <feOffset dy="3" input="SourceAlpha" />
+            <feGaussianBlur stdDeviation="3" result="e" />
+            <feFlood flood-opacity="0.251" result="f" />
+            <feComposite operator="out" in="SourceGraphic" in2="e" />
+            <feComposite operator="in" in="f" />
+            <feComposite operator="in" in2="SourceGraphic" />
+        </filter>
+    </defs>
+    <g transform="translate(-983.51 -4226.93)">
+        <g data-type="innerShadowGroup">
+            <path class="a"
+                d="M20.34,3.95a7.7,7.7,0,0,1-2.374.679A4.51,4.51,0,0,0,19.83,2.338,7.733,7.733,0,0,1,17.2,3.357,4.437,4.437,0,0,0,14.07,2,4.159,4.159,0,0,0,9.915,6.151,3.134,3.134,0,0,0,10,7.085,11.593,11.593,0,0,1,1.44,2.761,3.648,3.648,0,0,0,.847,4.88,4.25,4.25,0,0,0,2.711,8.356a6.027,6.027,0,0,1-1.864-.51v.086A4.114,4.114,0,0,0,4.151,12a4.354,4.354,0,0,1-1.1.169,2.323,2.323,0,0,1-.765-.086,4.023,4.023,0,0,0,3.9,2.884,8.473,8.473,0,0,1-5.171,1.778A4.219,4.219,0,0,1,0,16.662a11.875,11.875,0,0,0,6.356,1.864A11.757,11.757,0,0,0,18.221,6.661v-.51a8.7,8.7,0,0,0,2.119-2.2"
+                transform="translate(993.51 4236.93)" />
+            <g class="f" transform="matrix(1, 0, 0, 1, 983.51, 4226.93)">
+                <path class="a"
+                    d="M20.34,3.95a7.7,7.7,0,0,1-2.374.679A4.51,4.51,0,0,0,19.83,2.338,7.733,7.733,0,0,1,17.2,3.357,4.437,4.437,0,0,0,14.07,2,4.159,4.159,0,0,0,9.915,6.151,3.134,3.134,0,0,0,10,7.085,11.593,11.593,0,0,1,1.44,2.761,3.648,3.648,0,0,0,.847,4.88,4.25,4.25,0,0,0,2.711,8.356a6.027,6.027,0,0,1-1.864-.51v.086A4.114,4.114,0,0,0,4.151,12a4.354,4.354,0,0,1-1.1.169,2.323,2.323,0,0,1-.765-.086,4.023,4.023,0,0,0,3.9,2.884,8.473,8.473,0,0,1-5.171,1.778A4.219,4.219,0,0,1,0,16.662a11.875,11.875,0,0,0,6.356,1.864A11.757,11.757,0,0,0,18.221,6.661v-.51a8.7,8.7,0,0,0,2.119-2.2"
+                    transform="translate(10 10)" />
+            </g>
+        </g>
+        <g data-type="innerShadowGroup">
+            <g class="e" transform="matrix(1, 0, 0, 1, 983.51, 4226.93)">
+                <circle class="a" cx="20" cy="20" r="20" />
+            </g>
+            <g class="b" transform="translate(983.51 4226.93)">
+                <circle class="c" cx="20" cy="20" r="20" />
+                <circle class="d" cx="20" cy="20" r="19.5" />
+            </g>
+        </g>
+    </g>
+</svg>
