@@ -56,7 +56,7 @@ const app = {
   heading: "Baby Blobs",
   description: [
     "Introducing Baby Blobs! - Created (from the code to the drawings!) by two siblings from Mumbai, India.",
-    "Sway has been involved with crypto for a couple of years now, and Bloodie's been an artist even longer! We worked together to create Baby Blobs, 10,000 unique, hand-drawn, interactive NFTs on the Solana blockchain, and the project evolved into an amazing experience for the two of us, doing what we love.",
+    "Sway has been involved with crypto for a couple of years now, and Bloodie's been an artist for even longer! We worked together to create Baby Blobs, 10,000 unique, hand-drawn, interactive NFTs on the Solana blockchain, and the project evolved into an amazing experience for the two of us doing what we love.",
     "We hope the playful nature of the Blobs can bring you a smile and remind you to do what you love, too!",
   ],
 };
@@ -75,6 +75,10 @@ const faqItems = [
     question: "How many Blobs are there?",
     answer: "10,000",
   },
+  // {
+  //   question:"How does the interactivity work?",
+  //   answer:"We added HTML file support to the Solana NFT standard, so each Baby Blob is actually its own custom HTML file (you can ",
+  // },
   {
     question: "Should I buy a Blob?",
     answer: "This is something that ultimately can only be decided by you.",
@@ -129,7 +133,7 @@ const teamInfo = [
 ];
 const data = { remainingBlobs: 10000, price: 5 };
 const Home = () => {
-  const time = new Date(2021, 9, 1);
+  const time = new Date(2021, 9, 15);
   const [connected, setConnected] = useState(false);
   const [value, setValue] = useState(1);
   const [teamData, setTeamData] = useState({});
@@ -241,7 +245,7 @@ const Home = () => {
           </div> */}
           <div className="block coming-soon">
             <div>Coming Soon</div>
-            <div>
+            {/* <div>
               <span>{("0" + days).slice(-2)}d</span>
               <span className="colon"> : </span>
               <span>{("0" + hours).slice(-2)}h</span>
@@ -249,7 +253,7 @@ const Home = () => {
               <span>{("0" + minutes).slice(-2)}m</span>{" "}
               <span className="colon"> : </span>
               <span>{("0" + seconds).slice(-2)}s</span>
-            </div>
+            </div> */}
           </div>
           {/* <div className="heading">Sale</div> */}
         </div>

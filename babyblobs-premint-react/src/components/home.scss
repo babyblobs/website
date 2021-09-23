@@ -327,7 +327,7 @@ iframe {
       }
     }
 
-    min-height: 23vw;
+    // min-height: 23vw;
     width: 70vw;
   }
 }
@@ -364,16 +364,16 @@ iframe {
   flex-direction: column;
   padding: 40px;
   margin: 20px;
-  width: 60vw !important;
+  width: 50vw !important;
   border-radius: 20px;
-  min-height: 10vw !important;
+  // min-height: 10vw !important;
   box-shadow: 0px 20px 30px #00000069;
   background: transparent linear-gradient(to bottom, #4ce8bec5 0%, #be30c8b9 100%) 0% !important;
   > div:first-child {
     color: #4ceabf;
-    font-size: 230%;
+    font-size: 375%;
     padding: 0 !important;
-    padding-bottom: 20px !important;
+    // padding-bottom: 20px !important;
     width: initial !important;
   }
   > div:nth-child(2) {
@@ -603,7 +603,7 @@ body {
   .coming-soon {
     font-size: 60% !important;
     padding: 20px !important;
-    width: 80vw !important;
+    width: 60vw !important;
     > div:last-child {
       padding: 10px;
     }
