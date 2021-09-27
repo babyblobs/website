@@ -8,7 +8,7 @@
   <title>Baby Blob #00005</title>
   <link rel="stylesheet" href="main.min.css">
   <style>
-    #blob {
+    #blob,#background2 {
       position: absolute;
     }
 
@@ -27,7 +27,7 @@
     }
 
     @media (min-aspect-ratio: 1/1) {
-      #background {
+      #background,#background2 {
         height: 100vh;
         width: 100vh;
       }
@@ -38,6 +38,7 @@
 <body class="center">
   <img id="background" src="00005bg.png" draggable="false">
   <img id="blob" src="00005.png" class="animate__animated" draggable="false">
+  <img id="background2" src ="00005bg2.png" draggable="false" class="topLayer">
   <script src="main.min.js"></script>
 </body>
 

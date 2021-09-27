@@ -1,7 +1,8 @@
 const blob = document.querySelector('#blob');
+const topLayer = document.querySelector('.topLayer');
 const animations = ['animate__rubberBandY', 'animate__rubberBandX', 'animate__rubberBandY', 'animate__bounce'];
 
-blob.addEventListener('click', () => {
+topLayer.addEventListener('click', () => {
   const random = Math.floor(Math.random() * (animations.length - 2));
   if (animations.some(r => blob.classList.contains(r))) {
     const currentAnimation = blob.classList[1];
