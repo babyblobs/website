@@ -3,7 +3,12 @@ website
 mint-react-test
 arkb
 asset-test
-generation
+generation/**/*.png
 candy-machine-mint
 website-test
-mint-react/src/assets
+mint-react/src/assets/**/*.png
+mint-react/public/customs/**/*.png
+premint-react/src/assets/**/*.png
+premint-react/public/customs/**/*.png
+**/node_modules
+**/*Zone.Identifier

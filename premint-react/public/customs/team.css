@@ -1,0 +1,151 @@
+:root {
+    --animate-duration: 1.6s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+}
+
+.animate__animated {
+    animation-duration: 1s;
+    animation-duration: var(--animate-duration);
+    animation-fill-mode: both;
+}
+
+@keyframes bounce {
+    15% {
+        transform: scale(1.1, 0.9);
+    }
+    35% {
+        animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        transform: translateY(-15%) scale(0.9, 1.15);
+    }
+    55% {
+        transform: translateY(0%) scale(1.15, 0.95);
+    }
+    65% {
+        transform: translateY(0%) scale(0.95, 1.05);
+    }
+    75% {
+        transform: translateY(0%) scale(1.025, 0.975);
+    }
+    85% {
+        transform: translateY(0) scale(0.975, 1.025);
+    }
+}
+
+.animate__bounce {
+    animation-name: bounce;
+    transform-origin: center bottom;
+}
+
+@keyframes rubberBandX {
+    0% {
+        transform: scaleX(1);
+    }
+    30% {
+        transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+        transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+        transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+        transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+        transform: scale3d(1.05, 0.95, 1);
+    }
+    to {
+        transform: scaleX(1);
+    }
+}
+
+.animate__rubberBandX {
+    animation-name: rubberBandX;
+}
+
+@keyframes rubberBandY {
+    from {
+        transform: scale3d(1, 1, 1);
+    }
+    30% {
+        transform: scale3d(0.75, 1.25, 1);
+    }
+    40% {
+        transform: scale3d(1.25, 0.75, 1);
+    }
+    50% {
+        transform: scale3d(0.85, 1.15, 1);
+    }
+    65% {
+        transform: scale3d(1.05, 0.95, 1);
+    }
+    75% {
+        transform: scale3d(0.95, 1.05, 1);
+    }
+    to {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.animate__rubberBandY {
+    animation-name: rubberBandY;
+}
+
+#html,
+body,
+#base,
+#face,
+#site,
+#foreground,
+#background {
+    -webkit-user-drag: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#base,
+#face {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+#background {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+#foreground {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+@media (min-aspect-ratio: 1/1) {
+    #base,
+    #face {
+        height: 100%;
+        width: auto;
+    }
+}
+
+body {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    position: fixed;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
